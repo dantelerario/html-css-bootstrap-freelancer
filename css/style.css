@@ -1,0 +1,61 @@
+/* UTILITIES */
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+.blue-bg {
+  background: #2C3E50;
+}
+
+/* NAVBAR HEADER */
+.navbar {
+  border: 0px solid transparent;
+  margin-bottom: 0;
+}
+
+#navbar a {
+  color: #fff;
+  font-size: 120%;
+  font-weight: 700;
+  padding-top: 45px;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+.navbar-header h2 {
+  color: #fff;
+  font-size: 200%;
+  font-weight: 700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* MAIN */
+/* TOP MAIN */
+
+#top-main {
+  background: #1ABC9C;
+  height: 500px;
+  color: #fff;
+}
+
+#top-main img {
+  padding-top: 50px;
+  width: 250px;
+}
+
+#top-main h1 {
+  font-size: 400%;
+  font-weight: 700;
+}
+
+#top-main i {
+  color: #fff;
+  font-size: 300%;
+  font-weight: 700;
+  font-family: "Font Awesome 5 Free";
+  z-index: 22;
+}
