@@ -55,7 +55,40 @@
 }
 
 #top-main i {
+  display: inline-block;
   color: #fff;
   font-size: 300%;
   font-weight: 700;
+  margin: 0 50px;
+}
+
+#top-main p {
+  min-height: 1px;
+  position: relative;
+}
+
+#top-main p::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  height: 5px;
+  margin-left: 40px;
+  border-bottom: 5px solid #e0e6ed;
+  border-radius: 5px;
+  top: 20px;
+  right: 50px;
+  width: 200px;
+}
+
+#top-main p::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  height: 5px;
+  margin-left: 40px;
+  border-bottom: 5px solid #e0e6ed;
+  border-radius: 5px;
+  top: 20px;
+  left: 10px;
+  width: 200px;
 }
